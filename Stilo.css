@@ -1,0 +1,56 @@
+¨* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.body{
+    background-color: rgb(1, 215, 253);
+    color: rgb(255, 255, 255);
+  
+    font-family: sans-serif;
+}
+.formu{
+  width: 200px;
+
+}
+
+ .card{
+   background-color: brown;
+   padding: 30px;
+   margin: 30px;
+   width: 250px;
+   border-radius: 30px;
+
+
+  }
+
+table{
+    width: 100%;
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+  }
+  
+  table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+
+  }
+  /* h1{
+
+      -webkit-text-stroke: 0.3px rgb(2, 2, 2);
+      font-family: arial; color: rgb(255, 255, 255);
+    
+
+  } */
+  th, td {
+    padding: 20px;
+  }
+  
+  th{
+    text-align: left;
+  }
+
+.salidas{
+  margin-top: 5rem;
+}

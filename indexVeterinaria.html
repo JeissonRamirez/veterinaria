@@ -1,0 +1,120 @@
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Veterinari Penelope</title>
+
+</head>
+
+<body class="body">
+
+    <fieldset>
+        <legend>
+            <h1 id="registroFactura"> veterinaria Penelope</h1>
+        </legend>
+
+        <hr>
+
+        <div class="formu">
+
+            <form class="formulario" method="POST">
+                <h2> Registro de mascota </h2>
+
+                <h3>Nombre Propietario</h3>
+                <input required id="nombrePropietario" type="text">
+                <br>
+                <h3>Nombre mascota</h3>
+                <input required id="nombreMascotas" type="text">
+                <br>
+                <h3>fecha de ingreso</h3>
+                <input required id="fecha" type="date">
+                <br>
+                <br>
+                <label> Síntomas:</label>
+
+                <textarea id="sintomas" placeholder="Describa los sintomas"></textarea>
+                <br>
+                <br>
+                <button required id="registro" onclick="registrar()" type="submit">Registrar</button>
+        </div>
+    </fieldset>
+
+    <div>
+        <div class="container">
+            <table>
+
+                <thead>
+                    <tr>
+
+                        <td>
+                            <h1>Nombre Propietario </h1>
+                        </td>
+                        <td>
+                            <h1>Nombre mascota </h1>
+                        </td>
+                        <td>
+                            <h1>fecha de ingreso </h1>
+                        </td>
+                        <td>
+                            <h1> Sintomas:</h1>
+                        </td>
+                        <td>
+                            <h1> Fecha de salida </h1>
+                        </td>
+
+
+                    </tr>
+
+                </thead>
+
+                <tbody id="tbody">
+                </tbody>
+        </div>
+    </div>
+    <div id="listCard">
+        <div class="card">
+
+            <h2>Nombre </h2>
+            <h3>el pepe</h3>
+            <h2>nombre de mascota</h2>
+            <h3>el pepe</h3>
+            <h2>fecha de ingreso</h2>
+            <h3>el pepe</h3>
+            <h2>sintomas</h2>
+            <h3>el pepe</h3>
+            <h2>fecha de salidad</h2>
+            <h3>el pepe</h3>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <!--oonexiones -->
+    <script>
+
+        document.querySelector('form').addEventListener('submit', event => {
+            event.preventDefault();
+            alert("se ha registrado un nuevo paciente")
+
+        })
+
+    </script>
+
+    <script src="index.js"></script>
+    <link href="Stilo.css" rel="stylesheet" type="text/css">
+
+
+</body>
+
+</html>
